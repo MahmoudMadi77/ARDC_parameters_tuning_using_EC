@@ -1,0 +1,8 @@
+abc = artificial bee colony
+cs = cuckoo search
+pso = particle swarm optimization
+de = differential evolution
+ga = genetic algorithm
+gwo = grey wolf optimization
+waoa = walrus optimization algorithm (Relatively new - 2024)
+sfoa = starfish optimization algorithm (Newly published - 2025)
