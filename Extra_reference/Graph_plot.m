@@ -1,10 +1,10 @@
 % Load and squeeze data (assumed to be from Simulink output)
-time = squeeze(out.x_ref.Time); % Ensure time is a 1D array
+time = squeeze(out.tout); % Ensure time is a 1D array
 x_ref = squeeze(out.x_ref.Data);
 x_m = squeeze(out.x_m.Data);
 y_ref = squeeze(out.y_ref.Data);
 y_m = squeeze(out.y_m.Data);
-algorithm = 'abc';
+algorithm = 'waoa';
 
 %% Plot Trajectories
 figure;
