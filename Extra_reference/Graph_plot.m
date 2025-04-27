@@ -4,7 +4,7 @@ x_ref = squeeze(out.x_ref.Data);
 x_m = squeeze(out.x_m.Data);
 y_ref = squeeze(out.y_ref.Data);
 y_m = squeeze(out.y_m.Data);
-algorithm = 'waoa';
+algorithm = 'MPAGA';
 
 %% Plot Trajectories
 figure;
